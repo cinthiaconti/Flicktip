@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flicktip</string>
+    <string name="fragment_awards">Premiações</string>
+    <string name="fragment_categories">Categorias</string>
+    <string name="fragment_movie">Descrição</string>
+    <string name="fragment_editions">Edições</string>
+    <string name="fragment_about_us">Sobre nós</string>
+    <string name="fragment_nominations">Indicações</string>
+    <string name="fragment_watched">Filmes já vistos</string>
+    <string name="drawer_open">Abrir menu</string>
+    <string name="drawer_close">Fechar menu</string>
+    <string name="desc_list_item_icon">Ícone do Item</string>
+    <string name="info">O Flicktip não é filiado de nenhuma forma à Academia de Artes e Ciências Cinematográficas.</string>
+    <string name="created">Criado por Cinthia Conti</string>
+
+    <string-array name="nav_drawer_items">
+        <item name="home">Início</item>
+        <item name="watched">Filmes já vistos</item>
+        <item name="to_watch">Filmes para ver</item>
+        <item name="favorites">Meus favoritos</item>
+        <item name="awards_callendar">Calendário</item>
+        <item name="about_us">Sobre nós</item>
+    </string-array>
+    <string name="nomination">indicação</string>
+    <string name="nominations">indicações</string>
+    <string name="watched">Visto</string>
+    <string name="to_watch">Filmes para ver</string>
+    <string name="favorite">Favorito</string>
+    <string name="winner">VENCEDOR</string>
+    <string name="movie_poster">Cartaz do Filme</string>
+    <string name="empty_list">Esta lista está vazia!</string>
+    <string name="fragment_favorites">Meus favoritos</string>
+    <string name="fragment_to_watch">Filmes para ver</string>
+    <string name="rights">Academy Award(s), Oscar(s), Oscar Night e a estatueta do Oscar são marcas comerciais e marcas de serviço registradas pretencentes à Academia de Artes e Ciências Cinematográficas.</string>
+
+</resources>

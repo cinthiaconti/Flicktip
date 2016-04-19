@@ -1,0 +1,24 @@
+Best Picture#Melhor Filme
+Best Director#Melhor Diretor
+Best Actor#Melhor Ator
+Best Actress#Melhor Atriz
+Best Supporting Actor#Melhor Ator Coadjuvante
+Best Supporting Actress#Melhor Atriz Coadjuvante
+Best Original Screenplay#Melhor Roteiro Original
+Best Adapted Screenplay#Melhor Roteiro Adaptado
+Best Animated Feature Film#Melhor Animação
+Best Foreign Language Film#Melhor Filme Estrangeiro
+Best Documentary Feature#Melhor Documentário em Longa-Metragem
+Best Documentary Short Subject#Melhor Documentário em Curta-Metragem
+Best Live Action Short Film#Melhor Curta-Metragem
+Best Animated Short Film#Melhor Animação em Curta-Metragem
+Best Original Score#Melhor Trilha Sonora Original
+Best Original Song#Melhor Canção Original
+Best Sound Editing#Melhor Edição de Som
+Best Sound Mixing#Melhor Mixagem de Som
+Best Production Design#Melhor Direção de Arte
+Best Cinematography#Melhor Fotografia
+Best Makeup and Hairstyling#Melhor Maquiagem
+Best Costume Design#Melhor Figurino
+Best Film Editing#Melhor Edição
+Best Visual Effects#Melhor Efeitos Visuais

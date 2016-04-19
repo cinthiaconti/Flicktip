@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Flicktip</string>
+    <string name="fragment_awards">Awards</string>
+    <string name="fragment_awards_carousel">Awards Carousel</string>
+    <string name="fragment_categories">Categories</string>
+    <string name="fragment_editions">Editions</string>
+    <string name="fragment_nominations">Nominations</string>
+    <string name="fragment_about_us">About Us</string>
+    <string name="fragment_movie">Description</string>
+    <string name="fragment_watched">Watched list</string>
+    <string name="fragment_to_watch">To watch list</string>
+    <string name="fragment_favorites">Favorites list</string>
+
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="nomination">nomination</string>
+    <string name="nominations">nominations</string>
+
+    <string-array name="nav_drawer_items">
+        <item name="home">Home</item>
+        <item name="watched">Watched</item>
+        <item name="to_watch">To watch</item>
+        <item name="favorites">Favorites</item>
+        <item name="awards_callendar">Awards Callendar</item>
+        <item name="about_us">About Us</item>
+    </string-array>
+
+    <array name="nav_drawer_icons">
+        <item>@drawable/ic_home_white_18dp</item>
+        <item>@drawable/ic_visibility_white_18dp</item>
+        <item>@drawable/ic_bookmark_white_18dp</item>
+        <item>@drawable/ic_favorite_white_18dp</item>
+        <item>@drawable/ic_event_white_18dp</item>
+        <item>@drawable/ic_info_white_18dp</item>
+    </array>
+
+    <string name="desc_list_item_icon">Item Icon</string>
+    <string name="info">Flicktip is in no way affiliated to the Academy of Motion Picture Arts and Sciences</string>
+    <string name="rights">Academy Award(s), Oscar(s), Oscar Night and Oscar statuette design mark are registered trademarks and service marks of the Academy of Motion Pictures Arts and Sciences.</string>
+    <string name="created">Created by Cinthia Conti</string>
+    <string name="watched">Watched</string>
+    <string name="to_watch">To watch</string>
+    <string name="favorite">Favorite</string>
+    <string name="winner">WINNER</string>
+    <string name="email" translatable="false">cinthiaconti@gmail.com</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="empty_list">This list is empty!</string>
+    <string name="fragment_minor">Minor</string>
+</resources>

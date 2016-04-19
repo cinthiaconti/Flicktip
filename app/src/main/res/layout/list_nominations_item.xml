@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/tool_list_selector"
+    android:descendantFocusability="blocksDescendants"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/list_nominations_poster"
+        android:layout_width="66dp"
+        android:layout_height="99dp"
+        android:layout_centerVertical="true"
+        android:background="@color/dark_grey"
+        android:contentDescription="@string/movie_poster"/>
+
+    <ProgressBar
+        android:id="@+id/list_nominations_progressbar"
+        android:layout_width="66dp"
+        android:layout_height="30dp"
+        android:layout_centerVertical="true"
+        android:indeterminate="true"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:id="@+id/list_nominations_item"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/list_nominations_poster"
+        android:layout_alignTop="@+id/list_nominations_poster"
+        android:layout_toEndOf="@+id/list_nominations_poster"
+        android:background="@android:color/transparent"
+        android:padding="5dp"
+        android:paddingEnd="0dp"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/list_nominations_winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignStart="@+id/list_nominations_title"
+            android:background="@drawable/rounded_corner"
+            android:padding="3dp"
+            android:text="@string/winner"
+            android:textColor="@color/black"
+            android:textSize="9sp"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/list_nominations_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/list_nominations_nominee"
+            android:layout_below="@+id/list_nominations_winner"
+            android:ellipsize="end"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="normal"
+            android:layout_marginEnd="40dp"/>
+
+        <TextView
+            android:id="@+id/list_nominations_nominee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:textColor="@color/light_grey"
+            android:textSize="14sp"
+            android:layout_below="@+id/list_nominations_title"
+            android:layout_alignParentStart="true"
+            android:layout_marginEnd="40dp"/>
+
+        <CheckBox
+            android:id="@+id/list_nominations_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:buttonTint="@color/white"
+            android:checked="false" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
+
+

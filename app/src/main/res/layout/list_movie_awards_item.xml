@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/dark_white"
+    android:orientation="vertical"
+    android:padding="4dp">
+
+    <TextView
+        android:id="@+id/list_awards_category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:textColor="@color/dark_grey"
+        android:textSize="10sp"
+        android:layout_marginStart="4dp"
+        android:textStyle="normal"
+        android:text="Best Actor: "/>
+
+    <TextView
+        android:id="@+id/list_awards_nominee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/list_awards_category"
+        android:textColor="@color/dark_grey"
+        android:textSize="12sp"
+        android:textStyle="normal"
+        android:visibility="gone"
+        />
+
+    <TextView
+        android:id="@+id/list_awards_winner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corner"
+        android:padding="3dp"
+        android:text="@string/winner"
+        android:textColor="@color/black"
+        android:textSize="9dp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/list_awards_category"
+        android:layout_marginStart="10dp"/>
+
+</RelativeLayout>
